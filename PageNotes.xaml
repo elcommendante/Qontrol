@@ -8,7 +8,38 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PageNotes" Background="#5C80BC">
 
-    <Grid>
+    <Grid Loaded="Window_Loaded">
         <TextBlock Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30">Notes</TextBlock>
+        <Label Content="Title" HorizontalAlignment="Left" Margin="2,59,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Message" HorizontalAlignment="Left" Margin="2,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Height="23" Margin="94,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="144" Margin="94,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+
+        <DataGrid x:Name="dataGridView" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="179" Margin="307,60,0,0" VerticalAlignment="Top" Width="299">
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="Gray"></Setter>
+                    <Setter Property="FontWeight" Value="SemiBold"></Setter>
+                    <Setter Property="BorderThickness" Value="0,0,1,2"></Setter>
+                    <Setter Property="BorderBrush" Value="Black"></Setter>
+
+                </Style>
+            </DataGrid.Resources>
+            <!-- COLUMN HEADER TEXT AND BINDINGS-->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Title" Width="100" Binding="{Binding noteTitle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Message" Width="*" Binding="{Binding noteMessage}"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+
+
+
+        </DataGrid>
+
+        <Button x:Name="btnNewNote" Content="New" HorizontalAlignment="Left" Margin="94,253,0,0" VerticalAlignment="Top" Width="75" Click="BtnClickNewNote"/>
+        <Button x:Name="btnSaveNote" Content="Save" HorizontalAlignment="Left" Margin="221,253,0,0" VerticalAlignment="Top" Width="75" Click="btnClickSaveNote"/>
+        <Button x:Name="btnReadNote" Content="Read" HorizontalAlignment="Left" Margin="307,253,0,0" VerticalAlignment="Top" Width="75" Click="btnClickReadNote"/>
+        <Button x:Name="btnDeleteNote" Content="Delete" HorizontalAlignment="Left" Margin="531,253,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Page>

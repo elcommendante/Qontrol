@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,56 @@ namespace Qontrol
     /// </summary>
     public partial class PageNotes : Page
     {
+
+        DataTable tableNotes;
         public PageNotes()
         {
             InitializeComponent();
+            Note note = new Note();
+            note.noteTitle = "Test Title";
+            note.noteMessage = "Test Message";
+
+
+            dataGridView.Items.Add(note);
+
         }
+
+        public class Note
+        {
+            public string noteTitle { get; set; }
+            public string noteMessage { get; set; }
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Type code here to happen//
+        }
+
+
+        private void BtnClickNewNote(object sender, RoutedEventArgs e)
+        {
+            txtTitle.Clear();
+            txtMessage.Clear();
+        }
+
+        private void btnClickSaveNote(object sender, RoutedEventArgs e)
+        {
+            Note newNote = new Note();
+            newNote.noteTitle = txtTitle.Text;
+            newNote.noteMessage = txtMessage.Text;
+
+            dataGridView.Items.Add(newNote);
+
+            //tableNotes.Rows.Add(txtTitle.Text, txtMessage.Text);
+            //txtTitle.Clear();
+            //txtMessage.Clear();
+        }
+
+        private void btnClickReadNote(object sender, RoutedEventArgs e)
+        {
+        }
+
+
     }
 }
