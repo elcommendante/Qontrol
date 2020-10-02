@@ -10,10 +10,10 @@
     <!-- Example colour pallette -->
     <Grid Name="mainGrid">
         <Grid Name="headerGrid" Height="100" VerticalAlignment="Top" Background="#4d5061">
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Width="Auto" Height="100">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Width="Auto" Height="30">
                 <Button>Minimize</Button>
-                <Button>Maximize</Button>
-                <Button>Exit</Button>
+                <Button Click="BtnClickMaximize">Maximize</Button>
+                <Button Click="BtnClickExit">Exit</Button>
             </StackPanel>
         </Grid>
         
