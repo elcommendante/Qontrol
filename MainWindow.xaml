@@ -1,0 +1,38 @@
+﻿<Window x:Class="Qontrol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Qontrol"
+        mc:Ignorable="d"
+        Title="Qontrol" Height="600" Width="800" Background="#CDD1C4" MinHeight="600" MinWidth="800">
+
+    <!-- Example colour pallette -->
+    <Grid Name="mainGrid">
+        <Grid Name="headerGrid" Height="100" VerticalAlignment="Top" Background="#4d5061">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Width="Auto" Height="100">
+                <Button>Minimize</Button>
+                <Button>Maximize</Button>
+                <Button>Exit</Button>
+            </StackPanel>
+        </Grid>
+        
+        <Grid Name="menuGrid">
+            <StackPanel Width="150" HorizontalAlignment="Left" Height="Auto" Background="#30323D">
+                <Button Margin="0,110,0,0" Click="BtnClickMainPage">Main Page</Button>
+                <Button Click="BtnClickPageTasks">Task List</Button>
+                <Button Click="BtnClickPageCalculator">Calculator</Button>
+                <Button Click="BtnClickPageNotes">Notes</Button>
+                <Button Click="BtnClickPageCalendar">Calendar</Button>
+            </StackPanel>
+
+        </Grid>
+        <Grid Name="frameGrid" Margin="150,100,0,0">
+            <Frame x:Name="Main" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden"/>
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
