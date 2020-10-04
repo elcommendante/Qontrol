@@ -72,5 +72,10 @@ namespace Qontrol
         {
             this.WindowState = WindowState.Minimized;
         }
+
+        private void BtnClickPageNotesDatabase(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new PageNotesDatabase();
+        }
     }
 }

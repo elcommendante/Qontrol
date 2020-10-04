@@ -23,3 +23,9 @@ C:\Users\adi\source\repos\Qontrol\obj\Debug\PageCalculator.baml
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageCalendar.baml
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotes.baml
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageTasks.baml
+C:\Users\adi\source\repos\Qontrol\bin\Debug\dbUser.mdf
+C:\Users\adi\source\repos\Qontrol\bin\Debug\dbUser_log.ldf
+C:\Users\adi\source\repos\Qontrol\obj\Debug\Qontrol_Content.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotesDatabase.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotesDatabase.baml
+C:\Users\adi\source\repos\Qontrol\obj\Debug\GeneratedInternalTypeHelper.g.cs

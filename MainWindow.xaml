@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Qontrol"
         mc:Ignorable="d"
-        Title="Qontrol" Height="600" Width="800" Background="#CDD1C4" MinHeight="600" MinWidth="800">
+        Title="Qontrol" Height="600" Width="235" Background="#CDD1C4" MinHeight="600" MinWidth="800">
 
     <!-- Example colour pallette -->
     <Grid Name="mainGrid">
@@ -21,9 +21,10 @@
             <StackPanel Width="150" HorizontalAlignment="Left" Height="Auto" Background="#30323D">
                 <Button Margin="0,110,0,0" Click="BtnClickMainPage">Main Page</Button>
                 <Button Click="BtnClickPageTasks">Task List</Button>
+                <Button Click="BtnClickPageNotesDatabase" Content="Notes"/>
                 <Button Click="BtnClickPageCalculator">Calculator</Button>
-                <Button Click="BtnClickPageNotes">Notes</Button>
                 <Button Click="BtnClickPageCalendar">Calendar</Button>
+
             </StackPanel>
 
         </Grid>
