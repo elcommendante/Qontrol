@@ -103,7 +103,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PageNotes.xaml">
+    <Page Include="Pages - Old\PageNotes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -123,7 +123,7 @@
     <Compile Include="PageCalendar.xaml.cs">
       <DependentUpon>PageCalendar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PageNotes.xaml.cs">
+    <Compile Include="Pages - Old\PageNotes.xaml.cs">
       <DependentUpon>PageNotes.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageNotesDatabase.xaml.cs">
@@ -168,9 +168,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="dbUser.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

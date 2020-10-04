@@ -1,0 +1,30 @@
+C:\Users\adi\source\repos\Qontrol\bin\Release\dbUser.mdf
+C:\Users\adi\source\repos\Qontrol\bin\Release\dbUser_log.ldf
+C:\Users\adi\source\repos\Qontrol\bin\Release\Qontrol.exe.config
+C:\Users\adi\source\repos\Qontrol\bin\Release\Qontrol.exe
+C:\Users\adi\source\repos\Qontrol\bin\Release\Qontrol.pdb
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.csprojAssemblyReference.cache
+C:\Users\adi\source\repos\Qontrol\obj\Release\MainPage.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\MainWindow.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageCalculator.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageCalendar.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\Pages - Old\PageNotes.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageNotesDatabase.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageTasks.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\App.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol_Content.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol_MarkupCompile.cache
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol_MarkupCompile.lref
+C:\Users\adi\source\repos\Qontrol\obj\Release\MainPage.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\MainWindow.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageCalculator.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageCalendar.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\Pages - Old\PageNotes.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageNotesDatabase.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\PageTasks.baml
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.g.resources
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.Properties.Resources.resources
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.csproj.GenerateResource.cache
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.csproj.CoreCompileInputs.cache
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.exe
+C:\Users\adi\source\repos\Qontrol\obj\Release\Qontrol.pdb

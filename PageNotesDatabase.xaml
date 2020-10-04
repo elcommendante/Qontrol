@@ -23,7 +23,7 @@
         <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="144" Margin="65,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
         <Button x:Name="btnNewNote" Content="New" HorizontalAlignment="Left" Margin="65,253,0,0" VerticalAlignment="Top" Width="75" Click="BtnClickNewNote"/>
         <Button x:Name="btnSaveNote" Content="Save" HorizontalAlignment="Left" Margin="192,253,0,0" VerticalAlignment="Top" Width="75" Click="btnClickSaveNote"/>
-        <Button x:Name="btnDeleteNote" Content="Delete" HorizontalAlignment="Left" Margin="488,253,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.771,1.024"/>
+        <Button x:Name="btnDeleteNote" Content="Delete" HorizontalAlignment="Left" Margin="488,253,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.771,1.024" Click="btnClickDeleteNote"/>
 
 
     </Grid>

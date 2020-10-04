@@ -17,15 +17,14 @@ C:\Users\adi\source\repos\Qontrol\obj\Debug\MainPage.g.cs
 C:\Users\adi\source\repos\Qontrol\obj\Debug\MainPage.baml
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageCalculator.g.cs
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageCalendar.g.cs
-C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotes.g.cs
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageTasks.g.cs
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageCalculator.baml
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageCalendar.baml
-C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotes.baml
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageTasks.baml
 C:\Users\adi\source\repos\Qontrol\bin\Debug\dbUser.mdf
 C:\Users\adi\source\repos\Qontrol\bin\Debug\dbUser_log.ldf
 C:\Users\adi\source\repos\Qontrol\obj\Debug\Qontrol_Content.g.cs
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotesDatabase.g.cs
 C:\Users\adi\source\repos\Qontrol\obj\Debug\PageNotesDatabase.baml
-C:\Users\adi\source\repos\Qontrol\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Debug\Pages - Old\PageNotes.g.cs
+C:\Users\adi\source\repos\Qontrol\obj\Debug\Pages - Old\PageNotes.baml
