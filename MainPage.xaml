@@ -10,5 +10,6 @@
 
     <Grid>
         <TextBlock Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30">Main Page</TextBlock>
+        <WebBrowser Source="http://google.co.uk" HorizontalAlignment="Left" Height="191" Margin="38,47,0,0" VerticalAlignment="Top" Width="264"/>
     </Grid>
 </Page>

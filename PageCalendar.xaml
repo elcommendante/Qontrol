@@ -10,5 +10,6 @@
 
     <Grid>
         <TextBlock Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30">Calendar</TextBlock>
+        <Calendar HorizontalAlignment="Left" Margin="0,39,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
